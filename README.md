@@ -1,6 +1,7 @@
 ### Brief
 Multi-instance setup for [DDoS-Ripper](https://github.com/palahsu/DDoS-Ripper), powered by docker and docker-compose.
 
+---
 
 ### Prerequisites
 It requires [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) to run
