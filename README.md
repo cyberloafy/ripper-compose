@@ -19,7 +19,7 @@ cd DDoS-Ripper
 ```
 Download the ripper-compose archive:
 ```bash
-curl https://github.com/cyberloafy/ripper-compose/archive/refs/tags/1.0.0.zip > ripper-compose.zip
+curl -L https://github.com/cyberloafy/ripper-compose/releases/download/1.0.0/ripper-compose.zip -o ripper-compose.zip
 ```
 Unzip the archive:
 ```bash
@@ -30,7 +30,7 @@ unzip ripper-compose.zip
 
 Here is the same setup in one-line command for convenience:
 ```bash
-git clone https://github.com/palahsu/DDoS-Ripper.git && cd DDoS-Ripper && curl https://github.com/cyberloafy/ripper-compose/archive/refs/tags/1.0.0.zip > ripper-compose.zip && unzip ripper-compose.zip
+git clone https://github.com/palahsu/DDoS-Ripper.git && cd DDoS-Ripper && curl -L https://github.com/cyberloafy/ripper-compose/releases/download/1.0.0/ripper-compose.zip -o ripper-compose.zip && unzip ripper-compose.zip
 ```
 
 ---
